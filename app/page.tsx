@@ -10,7 +10,6 @@ import Architecture from "@/components/architecture/Architecture";
 import Timeline from "@/components/timeline/Timeline";
 import Contact from "@/components/contact/Contact";
 import ScrollProgress from "@/components/shared/ScrollProgress";
-import MouseGlow from "@/components/shared/MouseGlow";
 import AuroraBackground from "@/components/shared/AuroraBackground";
 
 export default function Home() {
@@ -18,8 +17,6 @@ export default function Home() {
     <main>
 
         <ScrollProgress />
-
-        <MouseGlow />
 
   <AuroraBackground />
 
