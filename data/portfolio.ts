@@ -25,7 +25,7 @@ export const portfolioData = {
 
       github: "https://github.com/Rithik333R/free-fire-arena",
 
-      demo: "#",
+      demo: "https://free-fire-arena.vercel.app",
 
       stack: [
         "Spring Boot",
