@@ -50,9 +50,11 @@ export const portfolioData = {
 
       stack: [
         "React",
-        "Node.js",
-        "MongoDB",
-        "AI APIs",
+        "Springboot",
+        "MySQL",
+        "JWT",
+        "Rest APIs",
+        "AI Integration"
       ],
     },
   ],
