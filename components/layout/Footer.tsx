@@ -38,7 +38,7 @@ export default function Footer() {
             </h3>
 
             <p className="mt-2 text-sm text-gray-500">
-              Backend Engineer • Java • Spring Boot • AWS
+              Backend Developer • Java • Spring Boot
             </p>
           </div>
 

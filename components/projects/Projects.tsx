@@ -14,7 +14,7 @@ export default function Projects() {
       <Container>
         <SectionHeading
           title="Featured Projects"
-          subtitle="Production-grade applications focused on backend engineering, cloud architecture and scalable systems."
+          subtitle="Full-stack applications focused on backend engineering, AI integration and security."
         />
 
         <div className="space-y-16">
@@ -25,6 +25,10 @@ export default function Projects() {
           <FeaturedProjectCard
             project={portfolioData.projects[1]}
             reverse
+          />
+
+          <FeaturedProjectCard
+            project={portfolioData.projects[2]}
           />
         </div>
       </Container>

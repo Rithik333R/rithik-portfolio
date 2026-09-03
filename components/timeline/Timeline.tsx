@@ -6,10 +6,10 @@ import SectionHeading from "../shared/SectionHeading";
 
 const timeline = [
   {
-    year: "2024",
-    title: "Started Full Stack Development",
+    year: "2025",
+    title: "Graduated",
     description:
-      "Focused on Java, Spring Boot, React and modern web development.",
+      "Completed B.E. in Computer Science and Engineering. Received a placement offer through campus recruitment for a trainee developer role, which was withdrawn before onboarding. Used the time to deepen core Java and Spring Boot fundamentals.",
   },
   {
     year: "2025",
@@ -21,13 +21,13 @@ const timeline = [
     year: "2025",
     title: "Built AI Interview Platform",
     description:
-      "Integrated AI-powered interview workflows and user experiences.",
+      "Integrated AI-powered interview workflows using Google Gemini.",
   },
   {
     year: "2026",
-    title: "Preparing For Software Engineering Roles",
+    title: "Built AI Freelance Engineering OS",
     description:
-      "Strengthening backend engineering, system design and project development.",
+      "Built a full-stack platform integrating AI into a real business workflow, with a focus on security and semantic search.",
   },
 ];
 

@@ -36,10 +36,11 @@ export default function FloatingOrb() {
         "
       >
         <Image
-          src="/profile.jpeg"
+          src="/profile.webp"
           alt="Rithik Kumar M B"
           fill
           priority
+          sizes="320px"
           className="object-cover"
         />
       </div>

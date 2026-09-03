@@ -17,6 +17,7 @@ export default function AuroraBackground() {
           ease: "easeInOut",
         }}
         className="
+          will-change-transform
           absolute
           left-[-15%]
           top-[-10%]
@@ -40,6 +41,7 @@ export default function AuroraBackground() {
           ease: "easeInOut",
         }}
         className="
+          will-change-transform
           absolute
           right-[-15%]
           top-[20%]
@@ -63,6 +65,7 @@ export default function AuroraBackground() {
           ease: "easeInOut",
         }}
         className="
+          will-change-transform
           absolute
           left-[20%]
           bottom-[-20%]

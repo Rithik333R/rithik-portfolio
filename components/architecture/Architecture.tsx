@@ -8,37 +8,25 @@ const technologies = [
   {
     title: "Spring Boot",
     description:
-      "Building scalable backend services, REST APIs and secure authentication systems.",
+      "Building REST APIs and secure authentication systems.",
     size: "large",
   },
   {
-    title: "Next.js",
+    title: "PostgreSQL / pgvector",
     description:
-      "Modern frontend applications with server-side rendering and performance optimization.",
-    size: "small",
-  },
-  {
-    title: "MongoDB",
-    description:
-      "Flexible document databases for scalable application development.",
+      "Relational data with vector-based semantic search.",
     size: "small",
   },
   {
     title: "JWT Security",
     description:
-      "Authentication and authorization using token-based security.",
+      "Token-based authentication and refresh-token flows.",
     size: "small",
   },
   {
-    title: "Microservices",
+    title: "Docker",
     description:
-      "Designing modular backend architectures with independent services.",
-    size: "large",
-  },
-  {
-    title: "AWS",
-    description:
-      "Deploying and managing cloud-ready applications and services.",
+      "Containerized local development.",
     size: "small",
   },
 ];

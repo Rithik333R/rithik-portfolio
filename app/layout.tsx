@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Rithik Kumar M B | Java Backend Developer",
   description:
-    "Backend Developer specializing in Java, Spring Boot, Microservices and Full Stack Development.",
+    "Backend Developer specializing in Java, Spring Boot, and AI-integrated full-stack applications.",
 };
 
 export default function RootLayout({

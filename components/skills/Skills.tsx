@@ -11,10 +11,8 @@ const skillCategories = [
     skills: [
       "Java",
       "Spring Boot",
-      "Microservices",
       "REST APIs",
       "JWT",
-      "Swagger",
     ],
   },
   {
@@ -22,18 +20,16 @@ const skillCategories = [
     icon: "💻",
     skills: [
       "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
+      "JavaScript",
     ],
   },
   {
     title: "Database",
     icon: "🗄️",
     skills: [
-      "MongoDB",
+      "PostgreSQL",
       "MySQL",
-      "Redis",
+      "MongoDB",
     ],
   },
   {
@@ -43,7 +39,6 @@ const skillCategories = [
       "Git",
       "GitHub",
       "Docker",
-      "Postman",
     ],
   },
 ];

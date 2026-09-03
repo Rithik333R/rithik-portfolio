@@ -128,24 +128,26 @@ export default function FeaturedProjectCard({
               GitHub
             </a>
 
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                rounded-xl
-                bg-gradient-to-r
-                from-blue-500
-                to-purple-500
-                px-6
-                py-3
-                font-medium
-                transition-all
-                hover:scale-105
-              "
-            >
-              Live Demo
-            </a>
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  rounded-xl
+                  bg-gradient-to-r
+                  from-blue-500
+                  to-purple-500
+                  px-6
+                  py-3
+                  font-medium
+                  transition-all
+                  hover:scale-105
+                "
+              >
+                Live Demo
+              </a>
+            )}
           </div>
         </div>
 

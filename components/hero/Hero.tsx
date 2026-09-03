@@ -110,10 +110,9 @@ export default function Hero() {
     text-gray-400
   "
 >
-    Passionate about building scalable backend
-    systems, secure APIs and modern web
-    applications using Java, Spring Boot,
-    Next.js and Microservices.
+    Backend Developer focused on Java,
+    Spring Boot, and building AI-integrated
+    full-stack applications using React.
 </motion.p>
 
 {/* Tech Pills */}
@@ -126,10 +125,10 @@ export default function Hero() {
   {[
     "Java",
     "Spring Boot",
-    "Microservices",
-    "Next.js",
-    "MongoDB",
-    "AWS",
+    "React",
+    "PostgreSQL",
+    "Docker",
+    "Generative AI",
   ].map((tech) => (
     <span
       key={tech}

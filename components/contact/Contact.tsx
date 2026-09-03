@@ -52,8 +52,7 @@ export default function Contact() {
               {[
                 "Java",
                 "Spring Boot",
-                "AWS",
-                "Microservices",
+                "PostgreSQL",
                 "Docker",
                 "MongoDB",
               ].map((skill) => (

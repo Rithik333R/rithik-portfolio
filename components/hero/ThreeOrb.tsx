@@ -2,7 +2,7 @@
 
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, MeshDistortMaterial } from "@react-three/drei";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 
 function Orb() {
@@ -29,7 +29,7 @@ function Orb() {
     >
       {/* Outer Shell */}
       <mesh ref={outerRef}>
-        <sphereGeometry args={[1.7, 256, 256]} />
+        <sphereGeometry args={[1.7, 64, 64]} />
 
         <MeshDistortMaterial
           color="#60a5fa"
@@ -44,7 +44,7 @@ function Orb() {
 
       {/* Inner Energy Core */}
       <mesh ref={innerRef} scale={0.65}>
-        <sphereGeometry args={[1.5, 128, 128]} />
+        <sphereGeometry args={[1.5, 48, 48]} />
 
         <meshStandardMaterial
           color="#ffffff"
@@ -59,8 +59,31 @@ function Orb() {
 }
 
 export default function ThreeOrb() {
+  const [inView, setInView] = useState(true);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        setInView(entries[0].isIntersecting);
+      },
+      { threshold: 0 }
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <Canvas camera={{ position: [0, 0, 4] }}>
+    <div ref={ref} className="h-full w-full">
+      <Canvas
+        camera={{ position: [0, 0, 4] }}
+        dpr={[1, 1.5]}
+        frameloop={inView ? "always" : "never"}
+      >
       <ambientLight intensity={1.2} />
 
       <pointLight
@@ -82,6 +105,7 @@ export default function ThreeOrb() {
       />
 
       <Orb />
-    </Canvas>
+      </Canvas>
+    </div>
   );
 }
